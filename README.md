@@ -25,6 +25,5 @@
 pip install -r requirements.txt
 
 3. Запустить разработанные тесты с помощью команды:
-python -m pytest -v --driver Chrome --driver-path C:/Documents/chromedriver.exe tests/test_reg_auth_page_rostelecom.py
-
+python -m pytest -v --driver Chrome --driver-path C:/Documents/chromedriver.exe tests/test_101internet.py
 (где C:/Documents - папка с расположением драйвера Chrome)
