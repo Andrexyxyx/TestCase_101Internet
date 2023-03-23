@@ -1,20 +1,16 @@
 # TestCase_101Internet
-# Автоматизированное тестирование процесса отправки заявки на подключение тарифов провайдера на сайте по поиску провайдеров https://piter-online.net/ (101 Internet)с помощью Selenium.
-В папке pages находятся файлы, описывающие шаблоны страниц и непосредственно страницы сайта https://b2c.passport.rt.ru/.
+# Автоматизированное тестирование процесса отправки заявки на подключение тарифов провайдера на сайте по поиску провайдеров https://piter-online.net/ (101 Internet) с помощью Selenium.
+В папке pages находятся файлы, описывающие шаблоны страниц и непосредственно страницы сайта https://piter-online.net/.
 
-В файле pages/base_page_rostelecom.py содержится реализацию шаблона PageObject для Python.
+В файле pages/base_page_101internet.py содержится реализацию шаблона PageObject для Python.
 
 В файле pages/elements.py содержится вспомогательный класс для определения веб-элементов на веб-страницах.
 
-В файле pages/config_rostelecom.py содержится информация о валидных и невалидных данных, необходимых для регистрации и аутентификации пользователя.
+В файле pages/config_101internet.py содержится информация о валидных данных, необходимых для поиска тарифов провайдера и подачи заявки на подключение.
 
-В файле pages/reg_page_rostelecom.py содержится класс страницы регистрации на сайте Ростелеком https://b2c.passport.rt.ru/.
+В файле pages/main_page_101internet.py содержится класс главной страницы сайта 101 Internet (Санкт-Петербург) https://piter-online.net/.
 
-В файле pages/confirm_reg_page_rostelecom.py содержится класс страницы подтверждения регистрации на сайте Ростелеком https://b2c.passport.rt.ru/.
-
-В файле pages/auth_page_rostelecom.py содержится класс страницы аутентификации на сайте Ростелеком https://b2c.passport.rt.ru/.
-
-В файле tests/test_reg_auth_page_rostelecom.py располагается набор тестов для веб-интерфейса сайта Ростелеком https://b2c.passport.rt.ru/.
+В файле pages/send_request_page_101internet.py содержится класс страницы с формой отправки заявки для определенного тарифа на сайте 101 Internet (Санкт-Петербург) https://piter-online.net/leningradskaya-oblast/orders/home?tariff_id=102134021.
 
 В файле requirements.txt находится список требуемых к установке библиотек.
 
