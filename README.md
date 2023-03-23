@@ -1,5 +1,5 @@
 # TestCase_101Internet
-Автоматизированное тестирование веб-интерфейсов сайта Ростелеком https://b2c.passport.rt.ru/ с помощью Selenium.
+# Автоматизированное тестирование веб-интерфейсов сайта Ростелеком https://b2c.passport.rt.ru/ с помощью Selenium.
 В папке pages находятся файлы, описывающие шаблоны страниц и непосредственно страницы сайта https://b2c.passport.rt.ru/.
 
 В файле pages/base_page_rostelecom.py содержится реализацию шаблона PageObject для Python.
